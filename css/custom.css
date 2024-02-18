@@ -122,8 +122,7 @@
 }
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+
     color: rgb(var(--bs-tertiary-color-rgb))
 }
 
@@ -202,7 +201,7 @@ body {
 }
 
 .navbar {
-    background-color: #2f0d25
+    background-color: #102D69
 }
 
 .navbar h2 {
@@ -214,6 +213,14 @@ body {
 }
 
 
+
 li {
     list-style-type: none;
 }
+.prevent-select {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -moz-user-select: none;
+    user-select: none; 
+
+  }
