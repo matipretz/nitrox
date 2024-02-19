@@ -8,7 +8,6 @@ https://drive.google.com/thumbnail?id=1le8Xu9dFbloQ14qpguB5OqXDY2FjutUc
 
 -hacer pagina principal
 -hacer pagina de carrito
--hacer pagina de checkout
 -hacer pagina de nuevo producto
 
 
@@ -17,3 +16,6 @@ https://drive.google.com/thumbnail?id=1le8Xu9dFbloQ14qpguB5OqXDY2FjutUc
 
 https://refrescandonegocios.com/posicionar-web-google/
 https://refrescandonegocios.com/copywriting-al-desnudo/
+
+
+

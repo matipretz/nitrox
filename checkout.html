@@ -38,10 +38,6 @@
             </a>
         </div>
         <svg xmlns=http://www.w3.org/2000/svg class=d-none>
-            <symbol id="mdi--trash-can-outline" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                    d="M9 3v1H4v2h1v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6h1V4h-5V3zM7 6h10v13H7zm2 2v9h2V8zm4 0v9h2V8z" />
-            </symbol>
             <symbol id="mdi--menu" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
             </symbol>
@@ -123,8 +119,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page"
-                            href="/nitrox/index.html">Productos</a>
+                        <a class="nav-link active text-light" aria-current="page" href="/nitrox/index.html">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="/nitrox/contact.html">Contacto</a>
@@ -191,152 +186,134 @@
             </div>
         </div>
     </nav>
-    <section class="bg-body-tertiary">
-        <div class="container py-5 h-100 ">
-            <div class="row d-flex justify-content-center align-items-center h-100 ">
-                <div class="col">
-                    <div class="">
-                        <div class="card-body p-4 ">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="d-flex justify-content-between align-items-center mb-4 ">
-                                        <div>
-                                            <h2 class="mb-1">Carrito</h2>
-                                            <p class="mb-0">Tenés 3 productos en el carrito</p>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between">
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div>
-                                                        <img src="img/IMG-20240215-WA0018.jpg"
-                                                            class="img-fluid rounded-3" alt="Shopping item"
-                                                            style="width: 65px;">
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h5>Soldadora Oxigas</h5>
-                                                        <p class="small mb-0">1kg X 1/2mt + carrito</p>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div style="width: 50px;">
-                                                        <h5 class="fw-normal mb-0">1</h5>
-                                                    </div>
-                                                    <div style="width: 80px;">
-                                                        <h5 class="mb-0">$39.990</h5>
-                                                    </div>
-                                                    <svg class=bi width=24 height=24>
-                                                        <use xlink:href=#mdi--trash-can-outline />
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+    <div class="container container-check">
+        <main>
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="/img/nitrox.png" alt="" width="72" height="57">
+                <h2>Estimador de costos</h2>
+                <p class="lead">Obtén una visión clara de los recursos necesarios para tu proyecto. Simplifica la
+                    gestión y toma decisiones informadas</p>
+            </div>
 
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between">
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div>
-                                                        <img src="img/IMG-20240215-WA0019.jpg"
-                                                            class="img-fluid rounded-3" alt="Shopping item"
-                                                            style="width: 65px;">
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h5>Soldadora Oxigas</h5>
-                                                        <p class="small mb-0">1kg X 1/4 Linea Azul</p>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div style="width: 50px;">
-                                                        <h5 class="fw-normal mb-0">1</h5>
-                                                    </div>
-                                                    <div style="width: 80px;">
-                                                        <h5 class="mb-0">$39.990</h5>
-                                                    </div>
-                                                    <svg class=bi width=24 height=24>
-                                                        <use xlink:href=#mdi--trash-can-outline />
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-primary">Productos</span>
+                        <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Oxigas 1kg X 1/2mt + carrito</h6>
+                            </div>
+                            <span class="text-body-secondary">$39.990</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Oxigas 1kg X 1/4 Linea Azul</h6>
+                            </div>
+                            <span class="text-body-secondary">$39.990</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Pestañadora Excentrica-Cortadora</h6>
+                            </div>
+                            <span class="text-body-secondary">$39.990</span>
+                        </li>
 
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between">
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div>
-                                                        <img src="img/IMG-20240215-WA0021.jpg"
-                                                            class="img-fluid rounded-3" alt="Shopping item"
-                                                            style="width: 65px;">
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h5>Pestañadora Excentrica-Cortadora</h5>
-                                                        <p class="small mb-0">Con caja</p>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div style="width: 50px;">
-                                                        <h5 class="fw-normal mb-0">1</h5>
-                                                    </div>
-                                                    <div style="width: 80px;">
-                                                        <h5 class="mb-0">$39.990</h5>
-                                                    </div>
-
-                                                    <svg class=bi width=24 height=24>
-                                                        <use xlink:href=#mdi--trash-can-outline />
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total</span>
+                            <strong>$119.970</strong>
+                        </li>
+                    </ul>
 
 
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between">
-                                                <div class="d-flex flex-row align-items-center">
-
-                                                    <div class="ms-3">
-                                                        <h5>Total</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center">
-
-                                                    <div style="width: 80px;">
-                                                        <h5 class="mb-0">$119.970</h5>
-                                                    </div>
-                                                    <svg class=bi width=24 height=24>
-                                                        <use xlink:href=#mdi--cart-outline />
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Tus datos</h4>
+                    <form class="needs-validation" autocomplete="on">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Juan" value=""
+                                    required autocomplete="on">
+                                <div class="invalid-feedback">
+                                    Se requiere un nombre válido.
                                 </div>
-                                <div class="col-lg-5">
-
-
-
-                                </div>
-
                             </div>
 
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Pérez" value=""
+                                    required autocomplete="on">
+                                <div class="invalid-feedback">
+                                    Se requiere un apellido válido.
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required
+                                    placeholder=" nitroxrefrigeracion@gmail.com" autocomplete="on">
+                                <div class="invalid-feedback">
+                                    Se requiere un correo electrónico válido.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="address" class="form-label">Teléfono</label>
+                                <input type="text" class="form-control" id="address" placeholder="11-6908-2638" required
+                                    autocomplete="on">
+                                <div class="invalid-feedback">
+                                    Se requiere un teléfono válido.
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <hr class="my-4">
+                        <h4 class="mb-3">Forma de Pago</h4>
+
+                        <div class="my-3">
+                            <div class="form-check">
+                                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked
+                                    required>
+                                <label class="form-check-label" for="credit">Efectivo</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="debit">Tarjeta de Débito</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="paypal">Tarjeta de Crédito</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="paypal">Transferencia Bancaria</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="paypal">Mercado Pago</label>
+                            </div>
+                        </div>
+
+
+
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Quiero que me contacten</button>
+                    </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </main>
+    </div>
 
     <footer class="py-3  d-block container">
 
 
         <div class="row">
+            <hr class="my-4">
 
             <div class="col-sm-12 col-md-6">
                 <ul class="contact-info">
@@ -378,8 +355,8 @@
             </div>
             <div class="col-sm-12 col-md-6">
                 <ul>
-                    <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/index.html">Inicio</a></li>
-                    <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/index.html">Productos</a></li>
+                    <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/">Inicio</a></li>
+                    <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/">Productos</a></li>
                     <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/contact.html">Contacto</a></li>
                     <li><a class="nav-link px-2 text-body-secondary" href="/nitrox/admin.html">Acceso Restringido</a>
                     </li>
