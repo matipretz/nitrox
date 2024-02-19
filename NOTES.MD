@@ -9,8 +9,9 @@ https://drive.google.com/thumbnail?id=1le8Xu9dFbloQ14qpguB5OqXDY2FjutUc
 -hacer pagina principal
 -hacer pagina de carrito
 -hacer pagina de checkout
--hacer pagina de admin
 -hacer pagina de nuevo producto
+
+-integrar el boton de tema en el nav
 
 
 https://refrescandonegocios.com/posicionar-web-google/
