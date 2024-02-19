@@ -27,13 +27,7 @@
 </head>
 <body>
     <header>
-        <div id=loader>
-            <div class=loadingio-spinner-rolling-dbbyt9o1214>
-                <div class=ldio-lhtc1ypfhfm>
-                    <div></div>
-                </div>
-            </div>
-        </div>
+
         <section>
             <div class="btn-toolbar position-fixed bottom-0 end-0 mb-3 me-3 dropdown" role=toolbar>
                 <a type=button class="btn btn-success py-2 d-flex align-items-center me-3"
@@ -92,6 +86,9 @@
             </div>
         </section>
         <svg xmlns=http://www.w3.org/2000/svg class=d-none>
+            <symbol id="mdi--menu" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
+            </symbol>
             <symbol id="mdi--cart-outline" viewBox="0 0 24 24">
                 <path fill="currentColor"
                     d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z" />
@@ -156,45 +153,92 @@
         </svg>
     </header>
     <main>
-        <nav class="navbar navbar-expand-md fixed-top justify-items-center">
-            <div class="container">
+
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
                 <a href="/"
                     class="d-flex align-items-center ms-3 mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                     <svg class="bi me-2 text-light" width="40" height="40">
                         <use xlink:href="#mdi--snowflake"></use>
                     </svg>
-                    <span class="fs-3 text-light">NITROX Refrigeración</span>
+                    <span class="fs-3 text-light navbar-text">NITROX Refrigeración</span>
                 </a>
-                <ul class="nav nav-pills me-3">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Productos</a></li>
-                    <li class="nav-item"><a href="/contact.html" class="nav-link">Contacto</a></li>
-                    <li class="nav-item"><a href="/cart.html" class="nav-link active"><svg class=bi width=24 height=24>
-                                <use xlink:href=#mdi--cart-outline />
-                            </svg></a></li>
-                </ul>
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+                    <svg class=bi width=24 height=24>
+                        <use xlink:href=#mdi--menu />
+                    </svg>
+
+
+
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Soldadura</a></li>
+                                <li><a class="dropdown-item" href="#">Bombas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="/cart.html" class="nav-link active text-light"><svg class=bi
+                                    width=24 height=24>
+                                    <use xlink:href=#mdi--cart-outline />
+                                </svg></a></li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
+
+
+
+
+
         <div class="container">
-            <div class="album mt-5 py-5 bg-body-tertiary">
+            <div class="album mt-5 py-5">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
-                                height="225" src="img/IMG-20240215-WA0017.jpg">
+                        <div class="card shadow-sm bg-body-tertiary placeholder-glow">
+                            <img class="placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
+                                height="225" src="img/IMG-20240215-WA0018.jpg">
                             <div class="card-body">
                                 <div class="card-item__content">
-                                    <p class="card-item__licence">
-                                        Nitrox
+                                    <p class="card-item__licence card-title placeholder">
+                                        <span class=""> Nitrox
+                                        </span>
                                     </p>
                                     <h4 class="card-item__name">
-                                        Oxigas 1kg X 1/2mt + carrito
+                                        <span class="placeholder">Oxigas 1kg X 1/2mt + carrito</span>
                                     </h4>
                                     <p class="card-item__price">
-                                        $ 39990.00
+                                        <span class="placeholder ">$ 39990.00</span>
                                     </p>
                                     <p class="card-item__promo">
-                                        6 CUOTAS SIN INTERÉS
+                                        <span class="placeholder ">
+                                            6 CUOTAS SIN INTERÉS
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -207,22 +251,27 @@
                     </div>
 
                     <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
+                        <div class="card shadow-sm bg-body-tertiary placeholder-glow">
+                            <img class="placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
                                 height="225" src="img/IMG-20240215-WA0018.jpg">
                             <div class="card-body">
                                 <div class="card-item__content">
-                                    <p class="card-item__licence">
-                                        Nitrox
+                                    <p class="card-item__licence card-title placeholder">
+                                        <span class=""> Nitrox
+                                        </span>
                                     </p>
                                     <h4 class="card-item__name">
-                                        Oxigas 1kg X 1/4 Linea Azul
+                                        <span class="placeholder"> Oxigas 1kg X 1/4 Linea Azul
+                                        </span>
+
                                     </h4>
                                     <p class="card-item__price">
-                                        $ 39990.00
+                                        <span class="placeholder ">$ 39990.00</span>
                                     </p>
                                     <p class="card-item__promo">
-                                        6 CUOTAS SIN INTERÉS
+                                        <span class="placeholder ">
+                                            6 CUOTAS SIN INTERÉS
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -233,22 +282,25 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
-                                height="225" src="img/IMG-20240215-WA0019.jpg">
+                        <div class="card shadow-sm bg-body-tertiary placeholder-glow">
+                            <img class="placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
+                                height="225" src="img/IMG-20240215-WA0018.jpg">
                             <div class="card-body">
                                 <div class="card-item__content">
-                                    <p class="card-item__licence">
-                                        Nitrox
+                                    <p class="card-item__licence card-title placeholder">
+                                        <span class=""> Nitrox
+                                        </span>
                                     </p>
                                     <h4 class="card-item__name">
-                                        Oxigas 1kg X 1/4
+                                        <span class="placeholder">Oxigas 1kg X 1/4</span>
                                     </h4>
                                     <p class="card-item__price">
-                                        $ 39990.00
+                                        <span class="placeholder ">$ 39990.00</span>
                                     </p>
                                     <p class="card-item__promo">
-                                        6 CUOTAS SIN INTERÉS
+                                        <span class="placeholder ">
+                                            6 CUOTAS SIN INTERÉS
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -260,22 +312,25 @@
                     </div>
 
                     <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
-                                height="225" src="img/IMG-20240215-WA0021.jpg">
+                        <div class="card shadow-sm bg-body-tertiary placeholder-glow">
+                            <img class="placeholder-img card-img-top mt-3" style="object-fit: contain;" width="100%"
+                                height="225" src="img/IMG-20240215-WA0018.jpg">
                             <div class="card-body">
                                 <div class="card-item__content">
-                                    <p class="card-item__licence">
-                                        Nitrox
+                                    <p class="card-item__licence card-title placeholder">
+                                        <span class=""> Nitrox
+                                        </span>
                                     </p>
                                     <h4 class="card-item__name">
-                                        Pestañadora Excentrica-Cortadora
+                                        <span class="placeholder">Pestañadora Excentrica-Cortadora</span>
                                     </h4>
                                     <p class="card-item__price">
-                                        $ 39990.00
+                                        <span class="placeholder ">$ 39990.00</span>
                                     </p>
                                     <p class="card-item__promo">
-                                        6 CUOTAS SIN INTERÉS
+                                        <span class="placeholder ">
+                                            6 CUOTAS SIN INTERÉS
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
