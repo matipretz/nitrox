@@ -11,7 +11,8 @@ https://drive.google.com/thumbnail?id=1le8Xu9dFbloQ14qpguB5OqXDY2FjutUc
 -hacer pagina de checkout
 -hacer pagina de nuevo producto
 
--integrar el boton de tema en el nav
+
+-Investigar deploy en Vercel
 
 
 https://refrescandonegocios.com/posicionar-web-google/
