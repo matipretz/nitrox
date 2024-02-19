@@ -201,7 +201,8 @@ body {
 }
 
 .navbar {
-    background-color: #102e69ea
+    background-color: #102e69ea;
+    padding: 0%;
 }
 
 .navbar h2 {
