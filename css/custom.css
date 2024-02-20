@@ -2,13 +2,20 @@
 [data-bs-theme=light] {
     color-scheme: light;
     --bs-secondary-color: #48cae4;
-    --bs-secondary-color-rgb: 212, 99, 183
+    --top-gradient-color: rgba(16, 46, 105, 1) 0%;
+    --bottom-gradient-color: rgba(255, 255, 255, 1);
+    --mid-gradient-color: rgba(117, 170, 219, 1) 50%;
+    --cart-logo-color:rgba(16, 46, 105, 1) 0%;
+
 }
 
 [data-bs-theme=dark] {
     color-scheme: dark;
     --bs-secondary-color: #0096c7;
-    --bs-secondary-color-rgb: 169, 48, 134
+    --top-gradient-color: rgba(16, 46, 105, 1) 0%;
+    --bottom-gradient-color: #212529;
+    --mid-gradient-color: rgba(16, 46, 105, 1) 50%;
+    --cart-logo-color:rgba(117, 170, 219, 1) 0%;
 }
 
 ::-webkit-scrollbar {
@@ -244,10 +251,14 @@ body {
 }
 
 main {
-    background: rgb(16,46,105);
-    background: linear-gradient(180deg, rgba(16,46,105,1) 0%, rgba(117,170,219,1) 50%, rgba(255,255,255,1) 100%);
+    background: rgb(16, 46, 105);
+    background: linear-gradient(180deg, var(--top-gradient-color), var(--mid-gradient-color), var(--bottom-gradient-color));
+}
+.cartlogo{
+color: var(--cart-logo-color);
 }
 
-aside{
+
+aside {
     z-index: 800;
 }
