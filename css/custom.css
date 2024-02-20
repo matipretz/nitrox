@@ -247,3 +247,7 @@ main {
     background: rgb(16,46,105);
     background: linear-gradient(180deg, rgba(16,46,105,1) 0%, rgba(117,170,219,1) 50%, rgba(255,255,255,1) 100%);
 }
+
+aside{
+    z-index: 800;
+}
