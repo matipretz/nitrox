@@ -189,7 +189,7 @@
     <div class="container container-check">
         <main>
             <div class="py-5 text-center">
-                <img class="d-block mx-auto mb-4" src="/img/nitrox.png" alt="" width="72" height="57">
+                <img class="d-block mx-auto mb-4" src="img/nitrox.png" alt="" width="72" height="57">
                 <h2>Estimador de costos</h2>
                 <p class="lead">Obtén una visión clara de los recursos necesarios para tu proyecto. Simplifica la
                     gestión y toma decisiones informadas</p>
@@ -246,9 +246,7 @@
                                 <label for="lastName" class="form-label">Apellido</label>
                                 <input type="text" class="form-control" id="lastName" placeholder="Pérez" value=""
                                     required autocomplete="on">
-                                <div class="invalid-feedback">
-                                    Se requiere un apellido válido.
-                                </div>
+                                
                             </div>
 
 
@@ -257,50 +255,17 @@
                                 <label for="email" class="form-label">Email</label>
                                 <input type="email" class="form-control" id="email" required
                                     placeholder=" nitroxrefrigeracion@gmail.com" autocomplete="on">
-                                <div class="invalid-feedback">
-                                    Se requiere un correo electrónico válido.
-                                </div>
+                               
                             </div>
 
                             <div class="col-12">
-                                <label for="address" class="form-label">Teléfono</label>
-                                <input type="text" class="form-control" id="address" placeholder="11-6908-2638" required
+                                <label for="phone" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="11-6908-2638" required
                                     autocomplete="on">
-                                <div class="invalid-feedback">
-                                    Se requiere un teléfono válido.
-                                </div>
+                                    
                             </div>
                         </div>
-                        <hr class="my-4">
-                        <h4 class="mb-3">Forma de Pago</h4>
-
-                        <div class="my-3">
-                            <div class="form-check">
-                                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked
-                                    required>
-                                <label class="form-check-label" for="credit">Efectivo</label>
-                            </div>
-                            <div class="form-check">
-                                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="debit">Tarjeta de Débito</label>
-                            </div>
-                            <div class="form-check">
-                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="paypal">Tarjeta de Crédito</label>
-                            </div>
-                            <div class="form-check">
-                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="paypal">Transferencia Bancaria</label>
-                            </div>
-                            <div class="form-check">
-                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="paypal">Mercado Pago</label>
-                            </div>
-                        </div>
-
-
-
-                        <hr class="my-4">
+                        <hr>
 
                         <button class="w-100 btn btn-primary btn-lg" type="submit">Quiero que me contacten</button>
                     </form>
