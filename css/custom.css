@@ -187,7 +187,7 @@ body {
 }
 
 .navbar {
-    background-color: #102e69ea;
+    background-color: #102e69;
     padding: 0%;
 }
 
@@ -204,40 +204,46 @@ body {
 li {
     list-style-type: none;
 }
-.prevent-select {
-    -webkit-user-select: none; 
-    -ms-user-select: none; 
-    -moz-user-select: none;
-    user-select: none; 
 
-  }
-  html,
-  body {
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+}
+
+html,
+body {
     height: 100%;
-  }
-  
-  .form-signin {
+}
+
+.form-signin {
     max-width: 330px;
     padding: 1rem;
-  }
-  
-  .form-signin .form-floating:focus-within {
+}
+
+.form-signin .form-floating:focus-within {
     z-index: 2;
-  }
-  
-  .form-signin input[type="email"] {
+}
+
+.form-signin input[type="email"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-  }
-  
-  .form-signin input[type="password"] {
+}
+
+.form-signin input[type="password"] {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-  }
+}
 
-  .navbar-toggler
-{
+.navbar-toggler {
     border-color: (var(--bs-btn-active-border-color));
+}
+
+main {
+    background: rgb(16,46,105);
+    background: linear-gradient(180deg, rgba(16,46,105,1) 0%, rgba(117,170,219,1) 50%, rgba(255,255,255,1) 100%);
 }
