@@ -18,4 +18,4 @@ https://refrescandonegocios.com/posicionar-web-google/
 https://refrescandonegocios.com/copywriting-al-desnudo/
 
 
-
+Cuando tenga dominio propio: SiteMap y Robots
